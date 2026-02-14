@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title inventory Management
+    link(rel="stylesheet", href="/style.css")
+  body
+    .container
+      img.logo(src="logo.jpg" alt="Warehouse Logo")
+      
+      h1 My Inventory 
+      
+      .grid
+        if products && products.length > 0
+          each item in products
+            .card
+              span.id-badge # #{item.id}
+              h3= item.name
+              p Stock Level: 
+                strong(class=item.quantity < 5 ? 'low-stock' : '') #{item.quantity}
+        else
+          p.empty-msg The inventory is currently empty!

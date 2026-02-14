@@ -1,0 +1,57 @@
+[
+  {
+    "id": 3,
+    "name": "tv",
+    "quantity": 0,
+    "category": "General",
+    "status": "out of stock"
+  },
+  {
+    "id": 4,
+    "name": "tv5",
+    "quantity": 1,
+    "category": "General",
+    "status": "low stock"
+  },
+  {
+    "id": 5,
+    "name": "mobile",
+    "quantity": 4,
+    "category": "General",
+    "status": "low stock"
+  },
+  {
+    "id": 6,
+    "name": "mobile1",
+    "quantity": 1,
+    "category": "General",
+    "status": ""
+  },
+  {
+    "id": 7,
+    "name": "mobile6",
+    "quantity": 7,
+    "category": "General",
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "name": "bookafteredit",
+    "quantity": 0,
+    "category": "General",
+    "status": "out of stock"
+  },
+  {
+    "id": 10,
+    "name": "    ",
+    "quantity": 1,
+    "category": "General",
+    "status": "low stock"
+  },
+  {
+    "id": 11,
+    "name": "alla",
+    "quantity": 1,
+    "status": "low stock"
+  }
+]
